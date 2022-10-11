@@ -10,4 +10,4 @@
 
   + [Задача №4 Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти](https://github.com/Ruslan7121/Getting_to_know_Python/tree/master/Homework/Lesson%201/Task%204)
   
-    + [Задача №5 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве](https://github.com/Ruslan7121/Getting_to_know_Python/tree/master/Homework/Lesson%201/Task%205)
+   + [Задача №5 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве](https://github.com/Ruslan7121/Getting_to_know_Python/tree/master/Homework/Lesson%201/Task%205)
