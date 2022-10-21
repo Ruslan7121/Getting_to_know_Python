@@ -1,7 +1,6 @@
 from view import (show_menu, print_result, get_search_name, get_search_number, get_new_user, get_file_name)
 from model import write_txt, write_csv, read_csv, find_by_name, find_by_number, add_user
 
-
 def work_with_phonebook():
     choice = show_menu()
     phone_book = read_csv('phonebook.csv')

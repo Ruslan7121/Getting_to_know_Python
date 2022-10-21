@@ -30,4 +30,4 @@ def get_new_user() -> str:
     return f'{id},{name},{surname},{number}'
 
 def get_file_name() -> str:
-    return input("Введите название файла с расширением для сохранения: ")
+    return input("Введите название файла для сохранения: ")
