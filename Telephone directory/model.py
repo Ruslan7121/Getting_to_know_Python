@@ -1,14 +1,13 @@
 def write_txt(filename: str, data: list):
-    with open(filename, 'w', encoding='utf-8') as fout:
+    with open(filename, 'w', encoding= 'utf-8') as fout:
         for i in range(len(data)):
             s = ''
             for v in data[i].values():
                 s += v + ','
-            fout.write(f'{s[:-1]}\n')  # [:-1] отрезать запятую в конце
-
+            fout.write(f'{s[:-1]}\n') #[:-1] отрезать запятую в конце
 
 def write_csv(filename: str, data: list):
-    with open(filename, 'a', encoding='utf-8') as fout:
+    with open(filename, 'a', encoding= 'utf-8') as fout:
         for i in range(len(data)-1, len(data)):
             s = ''
             for v in data[i].values():
